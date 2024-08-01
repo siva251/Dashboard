@@ -1,0 +1,39 @@
+:root{
+  --green_color : green !important;
+  --black_color : black !important;
+  --red_color : red !important;
+  --blue_color : blue !important;
+  --yellow_color : yellow !important;
+  --white_color : white !important;
+  --margin_all : 2% !important;
+  --padding_all : 1% !important;
+  --border_all : 1px !important;
+}
+.increment_btn{
+  background-color: var(--green_color) !important;
+  color: var(--white_color) !important;
+  margin: var(--margin_all) !important ;
+  padding : var(--padding_all) !important;
+}
+.decrement_btn{
+  background-color: var(--red_color) !important;
+  color: var(--white_color) !important;
+  margin: var(--margin_all) !important ;
+  padding : var(--padding_all) !important;
+}
+.zerocount{
+  border : var(--border_all) solid var(--blue_color)!important;
+  border-radius: 5%  !important;
+  background-color: var(--black_color) !important;
+  margin: var(--margin_all) !important ;
+  padding : var(--padding_all) !important;
+  color: var(--white_color) !important;
+}
+.count{
+  border : var(--border_all) solid var(--black_color)!important;
+  border-radius: 5px !important;
+  background-color: var(--yellow_color) !important;
+  margin: var(--margin_all) !important ;
+  padding : var(--padding_all) !important;
+  color: var(--black_color) !important;
+}
