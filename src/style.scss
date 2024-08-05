@@ -1,5 +1,51 @@
-$myColor: red;
-
-h1 {
-  color: $myColor;
+@mixin display_flex{
+display: flex;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #414a4c;
+}
+
+.HeaderSearch {
+  flex: 1;
+}
+
+.userLogo,
+.userLogo2,
+.userLogo3 {
+  width: 30px;
+  height: 30px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px; 
+}
+
+.container{
+  background-color: black;
+}
+
+.card {
+  background-color: #27293d;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  flex-direction: row !important;
+}
+
+.card-title {
+  font-size: 14px;
+  color: #a4a6b3;
+}
+
+.card-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
