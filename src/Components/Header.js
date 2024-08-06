@@ -29,11 +29,11 @@ class Header extends React.Component {
 
 
   renderComponent = (component, index) => {
-    const { Component, ClassName, InputType } = component;
+    const { Component, ClassName, InputType,PlaceHolder } = component;
     if (Component === 'Image') {
       return <UserImage key={index} className={ClassName} {...component}/>;
     } else if (Component === 'Text') {
-      return <Text key={index} className={ClassName} inputType={InputType} />;
+      return <Text key={index} className={ClassName} inputType={InputType} placeholder={PlaceHolder}/>;
     }
     return null;
   };
