@@ -4,6 +4,8 @@ import ComponentsImprot from "../ComponentsImports/ComponentsImports";
 import "../style.scss";
 import BarChartgraph from "../Components/BarChartgraph";
 import Accordion from "../Components/Accordion";
+import RecentOrders from "../Components/RecentOrder";
+import CustomerFeedback from "../Components/CustomerFeedback";
 
 const DynamicComponents =()=>{
     const {components} = useComponents()
@@ -36,7 +38,10 @@ const DynamicComponents =()=>{
         <div className="header-container">
             <BarChartgraph/>
             <span><Accordion/></span>
-            <span></span>
+        </div>
+        <div className="header-container">
+            <div style={{ width: '70%' }}><RecentOrders/></div>
+            <div><CustomerFeedback/></div>
         </div>
       </>
       );
