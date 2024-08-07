@@ -88,7 +88,6 @@ display: flex;
     border-radius: 10px;
     width: auto;
     display: flex;
-    justify-content: center;
     text-align: center;
     height: 30%;
     .MuiSvgIcon-root{
@@ -238,4 +237,22 @@ h3 {
   25%   { transform: translateX(-10px)}
   75%   { transform: translateX(10px)}
   100%  { transform: translateX(0)}
+}
+.feedback {
+  margin-bottom: 10px;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback p {
+  margin: 5px 0 0 0;
+}
+.text_left{
+  text-align: left;
+}
+.Rightaccordion{
+  margin-top: 15%;
 }

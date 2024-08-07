@@ -26,7 +26,7 @@ const Accordion=()=>{
         <div className="accordionStyle">
             {Component.Icon ==="AddCircleOutlineIcon" ?<AddCircleOutlineIcon color="primary"/>:Component.Icon ==="LunchDiningIcon" ?<LunchDiningIcon color="primary"/>:Component.Icon ==="RoomServiceIcon" ?<RoomServiceIcon color="primary"/>:<></> }
             <div className="white padding_20">{Component.DisplayValue}</div>
-            <div className="">{Component.AccordionIcon === true ? <ArrowRightIcon color="primary"/> : <></>}</div>
+            <div className="Rightaccordion">{Component.AccordionIcon === true ? <ArrowRightIcon color="primary"/> : <></>}</div>
 
         </div>
     ))}
