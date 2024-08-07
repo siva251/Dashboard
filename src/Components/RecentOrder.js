@@ -1,5 +1,5 @@
 import React from "react";
-
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 const RecentOrders = () => {
   const orders = [
     {
@@ -43,7 +43,7 @@ const RecentOrders = () => {
   return (
     <div className="recent-orders">
       <h3>Recent Orders</h3>
-      <table>
+      <table className="rwd-table">
         <thead>
           <tr>
             <th>Customer</th>
@@ -55,7 +55,7 @@ const RecentOrders = () => {
         <tbody>
           {orders.map((order, index) => (
             <tr key={index}>
-              <td>{order.customer}</td>
+              <td>{<PersonOutlineIcon/>}{order.customer}</td>
               <td>{order.orderNo}</td>
               <td>{order.amount}</td>
               <td>{order.status}</td>

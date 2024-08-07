@@ -25,7 +25,7 @@ const DynamicComponents =()=>{
             </>
         )
         }
-        return <>Outside</>;
+        return <></>;
     }
     
     return (
