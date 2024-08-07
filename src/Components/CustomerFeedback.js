@@ -9,7 +9,7 @@ const CustomerFeedback = () => {
     },
     {
       name: "Dianne Russell",
-      rating: 5,
+      rating: 3,
       comment: "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee.",
     },
     {
@@ -17,6 +17,16 @@ const CustomerFeedback = () => {
       rating: 4,
       comment: "Normally wings are wings, but theirs are lean",
     },
+    {
+      name: " Wilson",
+      rating: 5,
+      comment: "The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome",
+    },
+    {
+      name: "Russell",
+      rating: 3,
+      comment: "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee.",
+    }
   ];
 
   return (
